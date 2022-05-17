@@ -1,6 +1,12 @@
 .component__container{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+body{
+    background:linear-gradient(yellow,green,red);
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 .App{
     margin: auto;
@@ -13,13 +19,14 @@
     background: blue;
     color: white;
     cursor: pointer;
+    margin-top: 2rem;
 }
 .box{
     background-color: bisque;
     border: 2px solid black;
     border-radius: 15px;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
     width: 20rem;
 }
 .container{
